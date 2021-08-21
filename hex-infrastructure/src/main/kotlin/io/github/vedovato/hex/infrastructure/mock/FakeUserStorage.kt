@@ -1,8 +1,8 @@
 package io.github.vedovato.hex.infrastructure.mock
 
-import io.github.vedovato.hex.domain.cabinetmanagement.infrastructure.ListUsers
-import io.github.vedovato.hex.domain.cabinetmanagement.model.User
-import io.github.vedovato.hex.domain.cabinetmanagement.model.UserStatus
+import io.github.vedovato.hex.domain.usermanagement.infrastructure.ListUsers
+import io.github.vedovato.hex.domain.usermanagement.model.User
+import io.github.vedovato.hex.domain.usermanagement.model.UserStatus
 import io.github.vedovato.hex.domain.common.model.Coordinate
 import java.util.*
 

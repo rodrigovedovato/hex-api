@@ -1,6 +1,6 @@
 package io.github.vedovato.hex.api.handlers
 
-import io.github.vedovato.hex.domain.cabinetmanagement.UserManager
+import io.github.vedovato.hex.domain.usermanagement.UserManager
 import io.github.vedovato.hex.domain.common.model.Coordinate
 import org.springframework.stereotype.Component
 import org.springframework.web.servlet.function.ServerRequest

@@ -1,6 +1,6 @@
-package io.github.vedovato.hex.domain.cabinetmanagement.infrastructure
+package io.github.vedovato.hex.domain.usermanagement.infrastructure
 
-import io.github.vedovato.hex.domain.cabinetmanagement.model.User
+import io.github.vedovato.hex.domain.usermanagement.model.User
 import io.github.vedovato.hex.domain.common.model.Coordinate
 
 interface ListUsers {

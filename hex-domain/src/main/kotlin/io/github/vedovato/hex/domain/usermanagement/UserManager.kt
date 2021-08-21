@@ -1,7 +1,7 @@
-package io.github.vedovato.hex.domain.cabinetmanagement
+package io.github.vedovato.hex.domain.usermanagement
 
-import io.github.vedovato.hex.domain.cabinetmanagement.infrastructure.ListUsers
-import io.github.vedovato.hex.domain.cabinetmanagement.model.User
+import io.github.vedovato.hex.domain.usermanagement.infrastructure.ListUsers
+import io.github.vedovato.hex.domain.usermanagement.model.User
 import io.github.vedovato.hex.domain.common.model.Coordinate
 
 class UserManager(private val storage: ListUsers) {

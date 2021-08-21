@@ -1,4 +1,4 @@
-package io.github.vedovato.hex.domain.cabinetmanagement.model
+package io.github.vedovato.hex.domain.usermanagement.model
 
 import java.util.UUID
 import io.github.vedovato.hex.domain.common.model.Coordinate
