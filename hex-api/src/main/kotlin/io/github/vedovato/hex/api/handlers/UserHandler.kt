@@ -13,7 +13,7 @@ import java.util.*
 class UserHandler(private val userManager: UserManager) {
     data class UserRequest(val coordinate: Coordinate, val rangeInMeters: Int)
 
-    fun getCabinetsInRange(req: ServerRequest) : ServerResponse {
+    fun getUsersInRange(req: ServerRequest) : ServerResponse {
         val requestCoordinate = req.param("loc").map(Coordinate.Companion::fromString)
         val rangeParam = req.param("rng").map(String::toInt)
 
@@ -26,7 +26,7 @@ class UserHandler(private val userManager: UserManager) {
         return if (parameters.isEmpty) {
             notFound().build()
         } else {
-            ok().body(userManager.getCabinetsInRange(parameters.get().coordinate, parameters.get().rangeInMeters))
+            ok().body(userManager.getUsersInRange(parameters.get().coordinate, parameters.get().rangeInMeters))
         }
     }
 }

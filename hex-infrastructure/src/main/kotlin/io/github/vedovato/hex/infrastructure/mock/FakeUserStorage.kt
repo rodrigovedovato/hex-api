@@ -7,7 +7,7 @@ import io.github.vedovato.hex.domain.common.model.Coordinate
 import java.util.*
 
 class FakeUserStorage : ListUsers {
-    override fun getCabinetsInRange(coordinate: Coordinate, rangeInMeters: Int): List<User> {
+    override fun getUsersInRange(coordinate: Coordinate, rangeInMeters: Int): List<User> {
         return listOf(
             User(UUID.randomUUID(), Coordinate(-8.06232309651, -34.8712023897282), UserStatus.ONLINE),
             User(UUID.randomUUID(), Coordinate(-23.5904697733405, -46.66408239213214), UserStatus.OFFLINE)

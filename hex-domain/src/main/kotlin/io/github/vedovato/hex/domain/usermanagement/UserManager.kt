@@ -5,7 +5,7 @@ import io.github.vedovato.hex.domain.usermanagement.model.User
 import io.github.vedovato.hex.domain.common.model.Coordinate
 
 class UserManager(private val storage: ListUsers) {
-    fun getCabinetsInRange(coordinate: Coordinate, rangeInMeters: Int): List<User> {
-        return storage.getCabinetsInRange(coordinate, rangeInMeters)
+    fun getUsersInRange(coordinate: Coordinate, rangeInMeters: Int): List<User> {
+        return storage.getUsersInRange(coordinate, rangeInMeters)
     }
 }

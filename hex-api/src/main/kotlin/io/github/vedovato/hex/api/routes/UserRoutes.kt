@@ -10,8 +10,8 @@ class UserRoutes(private val userHandler: UserHandler) {
 
     @Bean
     fun routes() = router {
-        "/cabinets".nest {
-            GET(userHandler::getCabinetsInRange)
+        "/users/nearby".nest {
+            GET(userHandler::getUsersInRange)
         }
     }
 }
